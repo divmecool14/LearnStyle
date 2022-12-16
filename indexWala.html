@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+</style>
+</head>
+<body class="bodyMaths">
+<div id="top_header">
+<h1>LearnStyle</h1>
+<h3>"For the better of the next generation"</h3>
+</div>
+            <!-- navbar -->
+<div id="bottomheader">
+<div class="navbar">
+<a href="index.html">Home</a>
+  <a href="indexWala8.html">take a quiz</a>
+   <a href="quizGame.html">play a game</a>
+	<div class="dropdown">
+    <button class="dropbtn">Subjects
+
+    </button>
+  <div class="dropdown-content">
+      <a href="indexWala.html">Maths</a>
+      <a href="indexWala2.html">English</a>
+      <a href="indexWala3.html">Geography</a>  
+	  <a href="indexWala4.html">History</a> 
+	  <a href="indexWala5.html">Art</a> 
+	  <a href="indexWala6.html">Science</a>
+	 
+    </div>
+  </div> 
+  	<div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</div>
+<div id="logo">
+</div>
+</div>
+</div>
+
+<h1 class="mathsTitle">MATHS</h1>
+<p class="mathsText">Mathematics, or math, is the study of numbers and how they are related to each other and to the real world. Math is as important as language. In fact, people sometimes describe math as a kind of language.</p>
+
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p class="mathsText">The four basic arithmetic operations in Maths, for all real numbers, are:
+    Addition (Finding the Sum; '+')
+    Subtraction (Finding the difference; '-')
+    Multiplication (Finding the product; '×' )
+    Division (Finding the quotient; '÷')</p>
+
+ <img class= "image1" src="mathsgame.jpeg" width="300" height="300">
+ <img class ="image2" src="Maths workout.jpeg" width="300" height="280">
+<div class="footer">
+<div id="contact">
+<h2>Contact us on:</h2>
+<pre>
+<p class="footer-content">
+<i class="fa-brands fa-instagram"></i>:learnstyle
+<i class="fa-brands fa-facebook"></i>:learnstyle
+<i class="fa-brands fa-twitter"></i>:learnstyle
+
+
+</pre></p>
+</div>
+<div id="site-map">
+
+<h2> site-map: </h2>
+<menu>
+<li><a href="#">home</a>
+<li><a href="#">quiz game</a>
+<li><a href="#">learner type</a>
+<li><a href="#">study tips</a>
+<li><a href="#">gallery</a>
+<li><a href="#">subjects</a>
+</menu>
+
+</div>
+<div id="footer-logo">
+
+</div>
+</div>
+<script>
+// Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the person clicks on the button it scrolls to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+// When the person scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("bottomheader");
+
+// Get the offset position of the navbar
+var sticky = bottomheader.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,808 @@
+/* code by divyansh sharma x22450786 */
+body {
+  border:0px;
+  margin:0px;
+  background-color:grey;
+  
+}
+
+/* headers */
+#top_header{
+background-color:black;
+color:white;
+height:80px;
+width:100%;
+text-align:center;
+}
+
+#bottomheader{
+	height:50px;
+	width:100%;
+	background-color:black;
+	top:0px;
+
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:4;
+}
+
+/* nav bar stuff including button stuff */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding:16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+         
+#myBtn{
+font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+#myBtn:hover {
+  background-color:red;
+}
+#logo{
+background-image:url("panda.jpg");
+height:50px;
+width:50px;
+position:absolute;
+top:0px;
+right:0px;
+background-size:cover;
+}
+
+                                      /* content */
+.content{
+color:grey;
+font-size:10px;
+height:900px;
+width:1350px;
+background-color:white;
+position:absolute;
+left:84.6px;
+z-index:2;
+}
+#highlight{
+color:red;	
+	
+}
+/* the footer */
+.footer{
+height:200px;
+width:100%;
+background-color:#696969;
+position:relative;
+margin-top:0px;
+z-index:1;
+color:white;
+}
+#contact{
+height:170px;
+width:200px;
+position:relative;
+top:20px;	
+}
+#site-map{
+height:200px;
+width:200px;
+position:absolute;
+left:200px;
+top:0px;
+}
+#footer-logo{
+background-image:url("panda.jpg");
+height:100px;
+width:100px;	
+position:absolute;
+bottom:0px;
+right:0px;
+background-size:cover;
+}
+/* background image for home page */
+#background-man{
+height:772px;
+width:100%;
+background-image:url("kid3.jpg");
+position:relative;
+top:0px;	
+}
+
+/* top div with the panda */
+#panda-holder{
+width:1350;
+height:300px;
+position:relative;
+top:0px;
+left:84.6px;
+	
+}
+#panda{
+background-image:url("panda.jpg");	
+height:300px;
+width:300px;
+border:0px;
+margin:0px;	
+}
+#notPanda{
+height:300px;
+width:1050px;
+background-color:white;	
+position:absolute;
+left:300px;
+top:0px;
+text-align:center;
+color:black;
+font-size:18px;
+text-transform:capatalize;
+border:0px;
+margin:0px;
+}
+
+/* second div about the quiz */
+#middle{
+height:300px;
+width:900px;
+background-color:none;	
+}
+#quizd1{
+background-color:#A3E4D7;
+height:300px;
+width:300px;
+font-size:22px;	
+border: 1px solid;
+
+}
+#quizd2{
+background-color:#A3E4D7;
+height:300px;
+width:915px;
+position:relative;
+left:300px;
+top:-300px;
+display:none;
+font-size:22px;	
+border: 1px solid;
+}
+
+/* third div */
+#lastd{
+height:300px;
+width:900px;
+background-color:none;	
+	
+}
+#info1{
+height:300px;
+width:300px;
+background-color:#A3E4D7;	
+font-size:22px;	
+border: 1px solid;
+
+	
+}
+#info2{
+background-color:#A3E4D7;
+height:300px;
+width:915px;
+position:relative;
+left:300px;
+top:-300px;
+display:none;
+font-size:22px;	
+border: 1px solid;
+}
+
+/* last div */
+#realLast{
+height:300px;
+width:900px;
+background-color:white;	
+
+	
+}
+
+#idk1{
+height:300px;
+width:300px;
+background-color:#A3E4D7;		
+outline:none;
+border:none;
+margin:none;
+font-size:22px;	
+border:1px solid;
+	
+}
+#idk2{
+background-color:#A3E4D7;
+height:300px;
+width:915px;
+position:relative;
+left:300px;
+top:-300px;
+display:none;	
+font-size:22px;	
+border: 1px solid;
+}
+.content{
+position:relative;
+top:0px;	
+right:0px;
+	
+}
+/* gallery page css */
+.GalleryContent{
+height:1500px;
+width:100%;
+background-color:green;	
+
+	
+}
+/* gallery image 1 */
+#galleryimageholder1{
+height:300px;	
+width:100%;
+background-color:white;
+}
+#GalleryImage1{
+height:300px;
+width:300px;	
+background-image:url("panda.jpg");
+}
+#showbox1{
+height:300px;
+width:1000px;
+position:relative;
+top:-322px;
+right:-300px;
+background-color:cyan;
+font-size:23px;
+display:none;
+z-index:3;
+}
+#click2read{
+	position:relative;
+	top:-300px;
+	left:300px;
+	background-color:grey;
+	height:100px;
+	width:350px;
+	font-size:23px;
+	color:white;
+}
+
+/* gallery image 2 */
+#galleryimageholder2{
+height:300px;	
+width:100%;
+background-color:green;	
+z-index:3;
+	
+}
+#GalleryImage2{
+	height:300px;
+	width:746px;
+	background-image:url("kid3.jpg");
+	background-size: cover;
+	z-index:3;
+	
+}
+#showbox2{
+	height:300px;
+	width:1000px;
+	background-color:pink;
+	position:relative;
+	top:-322px;
+	right:-746px;
+	font-size:23px;
+	display:none;
+	
+}
+
+
+/* gallery image 3 */
+#galleryimageholder3{
+height:300px;	
+width:100%;
+background-color:green;
+	
+}
+#GalleryImage3{
+	height:300px;
+	width:441px;
+	background-image:url('mathsImage.jpeg');
+	background-size: cover;
+	
+	
+	
+}
+#showbox3{
+	height:300px;
+	width:1000px;
+	background-color:cyan;
+	position:relative;
+	top:-322px;
+	right:-441px;
+	font-size:23px;
+	display:none;
+}
+
+/* gallery image 4 */
+#galleryimageholder4{
+	height:300px;	
+	width:100%;
+	background-color:green;
+}
+#GalleryImage4{
+	height:300px;
+	width:400px;
+	background-image:url('chemImage.jpeg');
+	background-size: cover;
+	background-color:yellow;
+	
+}
+#showbox4{
+	height:300px;
+	width:1000px;
+	background-color:brown;
+	position:relative;
+	top:-322px;
+	right:-400px;
+	font-size:23px;
+	display:none;
+	
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media (max-width:500px) {
+	#background-man{
+      display: none;	
+}
+#panda{
+display:none;
+}
+#notPanda{
+height:300px;
+width:300px;
+background-color:white;	
+position:absolute;
+left:0px;
+top:0px;
+text-align:center;
+color:black;
+font-size:12px;
+text-transform:capatalize;
+word-wrap: break-word;
+
+}
+#quizd1{
+display:none;
+
+}
+#quizd2{
+display:block;
+height:300px;
+width:300px;
+position:relative;
+top:0px;
+left:0px;
+font-size:12px;
+}
+
+}
+/* end of divyanshe's work */
+/* meghan conroy's work  */
+
+/* wala's work */
+.bodyMaths {
+  background-color:blue;
+}
+
+.h1Maths {
+  color: WHITE;
+  text-align: center;
+  font-size:100px;
+}
+
+.mathsTitle {
+  text-align: center;
+}
+
+.mathsText {
+  background-color: white;
+  font-size: 25px;
+}
+
+
+.h1Maths {
+  color: WHITE;
+  text-align: center;
+}
+
+.image1 {
+   position: absolute;
+  width:500px;
+  height:500px;
+  left:700px;
+  top: 500px;
+}
+
+.image2{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 500x;
+  top:500px;
+}
+
+.bodyEnglish {
+  background-color:red;
+}
+
+.h1English {
+  color:white;
+  text-align: center;
+  font-size:100px;
+}
+
+.englishTitle {
+  text-align: center;
+}
+
+.englishText {
+  background-color: white;
+  font-size:30px;
+}
+
+.h1English {
+  background-color:white;
+  text-align: center;
+}
+
+.englishImage1 {
+  margin: 1px;
+  width: 400x;
+  border: 20px;
+  float: right;
+}
+
+.englishImage2 {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  left: 300px;
+  top: 500px;
+}
+
+.bodyGeography {
+  background-color:green;
+}
+
+.h1Geography {
+  color: WHITE;
+  text-align: center;
+  font-size:100px;
+}
+
+.geographyTitle {
+  text-align: center;
+}
+
+.geographytext {
+  background-color:white;
+  font-size: 30px;
+}
+
+.h1Geography {
+  color:white;
+  text-align:center;
+}
+
+.geographyImage1 {
+  position: absolute;
+  width:488px;
+  height: 341px;
+  left: 708px;
+  top: 500px;
+}
+
+.geographyImage2 {
+  position: absolute;
+  width:408px;
+  height:396px;
+  left:102px;
+  top: 500px;
+}
+
+
+
+
+.bodyHistory {
+  background-color:lightyellow;
+}
+
+.h1History {
+  color: white;
+  text-align: center;
+}
+
+.historyTitle {
+  text-align: center;
+}
+
+.historyText {
+  background-color:white;
+  font-size:30px;
+}
+
+.h1History {
+  color:white;
+  text-align: center;
+  font-size:30px;
+}
+
+.historyTitle {
+  text-align: center;
+  font-size: 50px;
+}
+
+.historyImage1 {
+      position: absolute;
+  width:408px;
+  height:396px;
+  left:700px;
+  top: 600px;
+
+
+
+}
+
+.historyImage2 {
+      position: absolute;
+  width:408px;
+  height:396px;
+  left:120px;
+  top: 600px;
+    
+    
+
+
+
+}
+
+
+.bodyArt {
+  background-color:plum;
+}
+
+.h1Art {
+  color: white;
+  text-align: center;
+}
+
+.artTitle {
+  color:white;
+  text-align: center;
+  font-size:40px;
+}
+
+.artText {
+  background-color: white;
+  font-size:30px;
+}
+
+.h1Art {
+  color:white;
+  text-align: center;
+}
+
+.artImage1 {
+display: block;
+  max-width: 100%;
+  margin: 1px auto;
+}
+
+.artImage2 {
+ display: block;
+  max-width: 100%;
+  margin: 1px auto;
+}
+
+
+
+
+
+.bodyScience {
+  background-color:lightblue;
+}
+
+.h1Science {
+  color: white;
+  text-align: center;
+  font-size:50px;
+}
+
+.scienceTitle {
+  text-align:center;
+  font-size:70px;
+}
+
+.scienceText {
+  background-color:white;
+  font-size:30px;
+}
+
+.h1Science {
+  color: white;
+  text-align: center;
+  font-size:60px;
+}
+
+.scienceImage1 {
+display: flex;
+  max-width: 100%;
+  margin: 1px auto;
+
+}
+
+.scienceImage2 {
+  position: absolute;
+  width:408px;
+  height:396px;
+  left:460px;
+  top:700px;
+right: 150px
+
+
+}
+
+
+
+.bodyLearning {
+  background-color:white;
+}
+
+.h1Learning {
+  color:red;
+  text-align: center;
+  font-size:400px;
+}
+
+.learningTitle {
+  text-align:center;
+  font-size: 50px;
+  color:blue;
+}
+
+.learningText {
+  background-color:white;
+  font-size:20px;
+}
+
+.h1Learning {
+  color: red;
+  text-align:center;
+}
+
+.learningImage1 {
+  display: block;
+  position: relative;
+  top: 70%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.bodyQuiz {
+  background-color:lightgray;
+}
+
+.h1Quiz {
+  color: red;
+  text-align: center;
+}
+
+.quizTitle {
+  text-align: center;
+  color:red;
+  font-size:50px
+}
+
+.quizText {
+  color:white;
+  text-align: center;
+  font-size:35px;
+}
+
+.h1Quiz {
+  color: red;
+  text-align: center;
+}
+
+.h2Quiz {
+  color:white;
+  text-align:center;
+  font-size:40px;
+}
+
+.quizPara {
+  color:black;
+  font-size:30px
+}
+
+.quizImage1 {
+ display: flex;
+  max-width: 100%;
+  margin: 1px auto;
+}
+
+
+
+
+
+
+
+
+
+

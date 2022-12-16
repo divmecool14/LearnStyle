@@ -1,0 +1,180 @@
+<! DOCTYPE >
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>earning website</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://kit.fontawesome.com/82f7ef3af5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="top_header">
+<h1>LearnStyle</h1>
+<h3>"For the better of the next generation"</h3>
+</div>
+            <!-- navbar -->
+<div id="bottomheader">
+<div class="navbar">
+<a href="index.html">Home</a>
+  <a href="indexWala8.html">take a quiz</a>
+   <a href="quizGame.html">play a game</a>
+  <div class="dropdown">
+    <button class="dropbtn">Subjects
+    </button>
+  <div class="dropdown-content">
+      <a href="indexWala.html">Maths</a>
+      <a href="indexWala2.html">English</a>
+      <a href="indexWala3.html">Geography</a>  
+	  <a href="indexWala4.html">History</a> 
+	  <a href="indexWala5.html">Art</a> 
+	  <a href="indexWala6.html">Science</a>
+	 
+    </div>
+  </div> 
+  	<div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</div>
+<div id="logo">
+</div>
+</div>
+</div>
+              <!-- content -->
+<div class="GalleryContent">	
+<div id="galleryimageholder1">		  
+<div id="GalleryImage1"></div>
+<div id="showbox1">
+<p>
+Our iconic logo! made by the best brightest minds around the universe!</p>
+</div>
+<div id="click2read">click on images to view them</div>
+</div>
+<div id="galleryimageholder2">
+<div id="GalleryImage2"></div>
+<div id="showbox2">
+<p>
+A photo of our president teaching his class in (2010)
+</p>
+</div>
+</div>
+<div id="galleryimageholder3">
+<div id="GalleryImage3"></div>
+<div id="showbox3">
+<p> An image created by one of our presidents students </p>
+</div>
+</div>
+<div id="galleryimageholder4">
+<div id="GalleryImage4"></div>	
+<div id="showbox4">
+<p>An image we took in (2015), in a chemestry class</p>
+
+</div>
+</div>		  
+</div>		  
+			  
+			  
+              <!-- footer -->
+<div class="footer">
+<div id="contact">
+<pre><h2>Contact us on:</h2>
+<p class="footer-content">
+<i class="fa-brands fa-instagram"></i>:learnstyle
+<i class="fa-brands fa-facebook"></i>:learnstyle
+<i class="fa-brands fa-twitter"></i>:learnstyle
+</p>
+
+</pre>
+</div>
+<div id="site-map">
+
+<h2> site-map: </h2>
+<li><a href="#">home</a>
+<li><a href="#">quiz game</a>
+<li><a href="#">learner type</a>
+<li><a href="#">study tips</a>
+<li><a href="#">gallery</a>
+<li><a href="#">subjects</a>
+
+</div>
+<div id="footer-logo">
+
+</div>
+</div>
+
+
+
+<script>
+// Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the person clicks on the button it scrolls to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+// When the person scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("bottomheader");
+
+// Get the offset position of the navbar
+var sticky = bottomheader.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+};
+
+const targetDiv1 = document.getElementById("showbox1");
+const hello1 = document.getElementById("GalleryImage1");
+hello1.onclick = function () {
+  if (targetDiv1.style.display !== "block") {
+    targetDiv1.style.display = "block";
+  } else {
+    targetDiv1.style.display = "none";
+  }
+};
+
+const targetDiv2 = document.getElementById("showbox2");
+const hello2 = document.getElementById("GalleryImage2");
+hello2.onclick = function () {
+  if (targetDiv2.style.display !== "block") {
+    targetDiv2.style.display = "block";
+  } else {
+    targetDiv2.style.display = "none";
+  }
+};
+
+
+const targetDiv3 = document.getElementById("showbox3");
+const hello3 = document.getElementById("GalleryImage3");
+hello3.onclick = function () {
+  if (targetDiv3.style.display !== "block") {
+    targetDiv3.style.display = "block";
+  } else {
+    targetDiv3.style.display = "none";
+  }
+};
+     //fourth click to show text
+
+const targetDiv4 = document.getElementById("showbox4");
+const hello4 = document.getElementById("GalleryImage4");
+hello4.onclick = function () {
+  if (targetDiv4.style.display !== "block") {
+    targetDiv4.style.display = "block";
+  } else {
+    targetDiv4.style.display = "none";
+  }
+};
+
+
+
+
+
+</script>
+</body>
+</html>

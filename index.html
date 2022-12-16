@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>learning website</title>
+<link rel="stylesheet" href="styles.css">
+<script src="javscript.js"></script>
+<script src="https://kit.fontawesome.com/82f7ef3af5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="top_header">
+<h1>LearnStyle</h1>
+<h3>"For the better of the next generation"</h3>
+</div>
+            <!-- navbar -->
+<div id="bottomheader">
+<div class="navbar">
+<a href="#home">Home</a>
+  <a href="indexWala8.html">take a quiz</a>
+    <a href="quizGame.html">play a game</a>
+  <div class="dropdown">
+    <button class="dropbtn">Subjects
+    </button>
+    <div class="dropdown-content">
+      <a href="indexWala.html">Maths</a>
+      <a href="indexWala2.html">English</a>
+      <a href="indexWala3.html">Geography</a>  
+	  <a href="indexWala4.html">History</a> 
+	  <a href="indexWala5.html">Art</a> 
+	  <a href="indexWala6.html">Science</a>
+	 
+    </div>
+  </div> 
+  	<div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</div>
+<div id="logo">
+</div>
+</div>
+</div>
+<div id="background-man">
+</div>
+        <!-- content -->
+
+		<!-- panda div -->
+<div class="contentDivs" id="panda-holder">
+<div id="panda"></div>
+<div id="notPanda">
+<h2>The Worlds Best Learning Websites For Children!</h2>
+<pre> learning with learnstyle is a time efficent, highly educational and most importantly fun way to learn!
+ we do this by writing easily digestible little packets of information
+ that is easily understandable.                                                
+
+
+
+
+</pre>
+</div>
+</div>
+<div class="content" id="intro">
+		<!-- middle div -->
+<div id="middle">
+
+<div id="quizd1">
+<p id="SecondDivHeading">  
+<pre>     
+ Take a quiz to know
+ more about your 
+ learning type!</p>
+ </pre>
+<p id="highlight" onclick="show()"><u>click here to read more</u></p>
+
+
+
+</div>
+
+<div id="quizd2">
+<pre>
+what are learning types? 
+everyone can be put in a catagory based off how they learn the fastest
+such as visual learners, auditory, learning & writing  and kinesthetic
+learner type. knowing your learning type can help you study more efficently.  
+
+
+<a href="indexWala8.html">click to take it</a>
+
+</pre>
+</div>
+
+</div>
+		<!-- second last div -->
+<div class="contentDivs" id="lastd">
+
+<div id="info1">
+<p><pre>
+  Quality studying is 
+  better than the amount 
+  of study!
+  </pre></p>
+<p id="highlight" onclick="info()"><u>click here to read more</u></p>
+
+</pre>
+</div>
+<div id="info2">
+<pre><p>
+ most people think that simply studying for long periods of time is the best
+ way to learn. they couldnt be more wrong. 
+ 
+ learn more about our studying tips: <a href="indexWala7.html">link text</a>
+  
+  </p>
+</div>
+</div>
+		<!-- last div -->
+<div class="contentDivs" id="realLast">
+
+<div id="idk1">
+<pre>
+<p>
+   Take a look at our 
+   picture gallery!</p>
+
+
+<p id="highlight" onclick="idk()"><u>click here to read more</u></p>
+</pre>
+</div>
+
+<div id="idk2">
+<pre>
+<p>
+Take a look at our fabalous pictures: <a href="gallery.html">link text</a>
+</p>
+</pre>
+
+</div>
+</div>
+</div>
+
+         <!-- the footer -->
+<div class="footer">
+<div id="contact">
+<h2>Contact us on:</h2>
+<pre>
+<p class="footer-content">
+<i class="fa-brands fa-instagram"></i>:learnstyle
+<i class="fa-brands fa-facebook"></i>:learnstyle
+<i class="fa-brands fa-twitter"></i>:learnstyle
+
+
+</pre></p>
+</div>
+<div id="site-map">
+
+<h2> site-map: </h2>
+<menu>
+<li><a href="#">home</a>
+<li><a href="#">quiz game</a>
+<li><a href="#">learner type</a>
+<li><a href="#">study tips</a>
+<li><a href="#">gallery</a>
+<li><a href="#">subjects</a>
+</menu>
+
+</div>
+<div id="footer-logo">
+
+</div>
+</div>
+
+
+
+<script>
+// Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the person clicks on the button it scrolls to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+// When the person scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("bottomheader");
+
+// Get the offset position of the navbar
+var sticky = bottomheader.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+};
+//functions for the popup info divs
+function show(){
+var div = document.getElementById("quizd2");
+
+div.style.display ="block";
+}
+//second one
+function info(){
+var div = document.getElementById("info2");
+
+div.style.display ="block";
+}
+//third one
+function idk(){
+var div = document.getElementById("idk2");
+
+div.style.display ="block";
+}
+
+
+
+
+
+
+</script>
+</body>
+</html>
